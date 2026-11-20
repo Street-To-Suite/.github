@@ -1,0 +1,25 @@
+name: Feature
+description: Stel een nieuwe functionaliteit voor
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: probleem
+    attributes:
+      label: Welk probleem lost dit op?
+    validations:
+      required: true
+  - type: textarea
+    id: voorstel
+    attributes:
+      label: Voorgestelde oplossing
+    validations:
+      required: true
+  - type: textarea
+    id: alternatieven
+    attributes:
+      label: Overwogen alternatieven
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra info

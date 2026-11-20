@@ -1,0 +1,38 @@
+name: Bug
+description: Meld een fout
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: beschrijving
+    attributes:
+      label: Wat gaat er fout?
+      description: Beschrijf het probleem duidelijk.
+    validations:
+      required: true
+  - type: textarea
+    id: stappen
+    attributes:
+      label: Stappen om te reproduceren
+      placeholder: |
+        1. Ga naar ...
+        2. Klik op ...
+        3. Zie de fout
+    validations:
+      required: true
+  - type: textarea
+    id: verwacht
+    attributes:
+      label: Verwacht gedrag
+    validations:
+      required: true
+  - type: textarea
+    id: omgeving
+    attributes:
+      label: Omgeving
+      description: Besturingssysteem, browser, versie, ...
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra info
+      description: Screenshots, logs, ...
